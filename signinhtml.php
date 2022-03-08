@@ -78,7 +78,7 @@ $db = "d8upqskpp51oj3";
   if (pg_num_rows($result)> 0){
     while($row = pg_fetch_assoc($result)) {
       array_push($a,$row['username']);}}?></p>
-<div id = "dialog-1" title = "Transaction Successful!" style="background:whitesmoke"><img src="success.gif" alt="Success Gif" style="width:100%;height: 100%;"></div>
+<div id = "dialog-1" title = "Account Created!" style="background:whitesmoke"><img src="success.gif" alt="Success Gif" style="width:100%;height: 100%;"></div>
             <div id = "dialog-2" title = "Error!" style="background:whitesmoke"><img src="sad.png" alt="Sad" style="width:100%;height: 100%;"></div>
             <style>
               .ui-widget-header,.ui-state-default, .ui-button {
