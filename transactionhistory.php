@@ -32,7 +32,7 @@
 <div class="navbar navbar-expand-sm fixed-top justify-content-end">
     <ul class="navbar gap-1">
       <li class="nav-item">
-        <a class="nav-link" aria-label="Back to the page" title="Go to home page"  href="index.html"><i class="fas fa-home fa-2x"></i></a>
+        <a class="nav-link" aria-label="Back to the page" title="Go to home page"  href="index.php"><i class="fas fa-home fa-2x"></i></a>
       </li>
       <li class="nav-item">
           <a class="nav-link" aria-label="add deatils" title="Veiw Cutomers"  href="veiw_all_customers.php"><i class="fas fa-users fa-2x"></i></a>
