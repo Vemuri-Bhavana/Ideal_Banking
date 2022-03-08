@@ -126,7 +126,7 @@ $db = "d8upqskpp51oj3";
             //Open your dialog.
             var form = document.getElementById('f');
             var arr = '<?php echo json_encode($a);?>';
-            if(arr.includes(document.getElementById('inputName').innerHTML)){
+            if(arr.includes(document.getElementById('inputName').value)){
               $( "#dialog-2" ).dialog({title: "Account Already Exists"}).dialog('open');
             }
             else if(form.checkValidity()){
